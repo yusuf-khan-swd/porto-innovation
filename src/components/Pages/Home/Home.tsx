@@ -1,8 +1,9 @@
+import Navbar from "../../Navbar/Navbar";
 
 const Home = () => {
   return (
     <div className="h-screen">
-      <h2>Home</h2>
+      <Navbar></Navbar>
     </div>
   );
 };
