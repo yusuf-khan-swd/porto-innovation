@@ -1,7 +1,12 @@
+import Home from "./components/Home/Home"
+import Footer from "./components/Shared/Footer/Footer"
+
 function App() {
 
   return (
-    <div className="h-screen" data-theme="dark">
+    <div>
+      <Home></Home>
+      <Footer></Footer>
     </div>
   )
 }
