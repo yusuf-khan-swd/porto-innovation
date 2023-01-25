@@ -1,4 +1,4 @@
-import logo from "../../../assets/logo.png";
+import logo from "../../assets/logo.png";
 import "./Footer.css";
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
