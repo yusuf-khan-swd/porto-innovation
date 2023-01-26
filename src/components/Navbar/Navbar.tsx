@@ -53,7 +53,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="bg-primary text-white sticky top-0 z-50">
+    <div id="navbar" className="bg-primary text-white sticky top-0 z-50">
       <div className="container mx-auto">
         <div className="navbar min-h-[80px]">
           <div className="navbar-start">
@@ -81,7 +81,7 @@ const Navbar = () => {
                 {menuItems}
               </ul>
             </div>
-            <a className="text-xl font-extrabold uppercase btn btn-ghost">
+            <a className="text-xl font-extrabold uppercase cursor-pointer">
               Porto
             </a>
           </div>
