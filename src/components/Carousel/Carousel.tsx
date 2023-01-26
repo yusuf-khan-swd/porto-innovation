@@ -2,16 +2,20 @@ import banner1 from '../../assets/banner1.jpg';
 
 const Carousel = () => {
   return (
-    <div className="">
-      <div className="">
-        <div className="hero min-h-screen" style={{ backgroundImage: `url(${banner1})` }}>
-          <div className="hero-overlay bg-opacity-60"></div>
-          <div className="hero-content text-center text-neutral-content">
-            <div className="max-w-md">
-              <h1 className="mb-5 text-5xl font-bold text-white">Arch Design Studio</h1>
-              <p className="text-2xl">A Very Personal Approach to Every Client </p>
-              <p className="mb-5 text-lg">Elegant Solutions to Complex Problems</p>
-              <button className="btn btn-primary">Get Started</button>
+    <div className="bg-primary h-[500px]">
+      <div className="w-[90%] mx-auto pt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 bg-white">
+          <div className="">
+            <figure className="w-full"><img src={banner1} className="h-[530px]" alt="Album" /></figure>
+          </div>
+          <div className="bg-[#6c6e70] text-white flex flex-col items-center pt-20">
+            <div className=" text-right pr-8">
+              <h2 className="text-5xl font-bold mb-2">Arch Design Studio</h2>
+              <p className="text-xl">A Very Personal Approach to Every Client</p>
+              <p className="mb-8">Elegant Solutions to Complex Problems</p>
+              <div className="">
+                <button className="btn btn-primary">Get Started</button>
+              </div>
             </div>
           </div>
         </div>
