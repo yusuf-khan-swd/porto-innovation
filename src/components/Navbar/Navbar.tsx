@@ -1,4 +1,4 @@
-import { FaFacebook, FaLinkedinIn, FaSearch, FaTwitter } from "react-icons/fa";
+import { FaBars, FaFacebook, FaLinkedinIn, FaSearch, FaTwitter } from "react-icons/fa";
 import logo from "../../assets/logo.png";
 
 const Navbar = () => {
@@ -58,21 +58,8 @@ const Navbar = () => {
         <div className="navbar min-h-[80px]">
           <div className="navbar-start">
             <div className="dropdown">
-              <label tabIndex={0} className="btn btn-ghost lg:hidden p-0">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h8m-8 6h16"
-                  />
-                </svg>
+              <label tabIndex={0} className="btn btn-ghost lg:hidden p-0 mr-3">
+                <FaBars className="text-xl"></FaBars>
               </label>
               <ul
                 tabIndex={0}
@@ -81,7 +68,7 @@ const Navbar = () => {
                 {menuItems}
               </ul>
             </div>
-            <a className="text-xl font-extrabold uppercase cursor-pointer">
+            <a className="text-2xl font-extrabold uppercase cursor-pointer ml-4 lg:ml-0">
               Porto
             </a>
           </div>
