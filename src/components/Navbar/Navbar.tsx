@@ -53,7 +53,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="bg-primary text-white">
+    <div className="bg-primary text-white sticky top-0 z-50">
       <div className="container mx-auto">
         <div className="navbar min-h-[80px]">
           <div className="navbar-start">
