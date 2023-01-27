@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { FaBars, FaFacebook, FaLinkedinIn, FaSearch, FaTwitter } from "react-icons/fa";
-import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
