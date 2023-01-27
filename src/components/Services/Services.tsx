@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="container mx-auto w-[80%] -mt-20">
+    <div className="container mx-auto w-[80%] mt-8 md:-mt-20">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ">
         <div className="card bg-white rounded-none border">
           <figure className="px-10 pt-10">
