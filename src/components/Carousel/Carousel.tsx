@@ -22,24 +22,25 @@ const Carousel = () => {
     //   </div>
     // </div>
     <div className="bg-primary relative">
-      <div className="carousel w-[90%] mx-auto max-h-[550px] min-h-[350px]">
+      <div className="carousel w-[88%] mx-auto max-h-[560px] min-h-[350px]">
         <div id="slide1" className="carousel-item w-full">
           <img src={banner1} className="w-full opacity-30" />
-          <div className="absolute text-white bg-transparent sm:bg-slate-600 sm:right-9 md:right-12 lg:right-11 p-8 lg:h-[300px]">
-            <div className="text-center sm:text-right pr-8">
-              <h2 className="lg:text-5xl font-bold mb-2">Arch Design Studio</h2>
-              <p className="lg:text-xl">A Very Personal Approach to Every Client</p>
+          <div className="absolute text-white bg-transparent  sm:right-9 md:right-12 lg:right-11 p-6">
+            <div className="text-center sm:text-right mt-24 mb-16 pr-8">
+              <h2 className="md:text-5xl font-bold mb-2">Arch Design Studio</h2>
+              <p className="md:text-lg mb-1">A Very Personal Approach to Every Client</p>
               <p className="mb-8">Elegant Solutions to Complex Problems</p>
               <div className="">
                 <button className="btn btn-primary rounded-none">Get Started</button>
               </div>
             </div>
           </div>
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 lg:left-1 lg:right-1 top-1/2 z-50">
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 lg:left-3 lg:right-3 top-1/2 z-50">
             <a href="#slide4" className="btn bg-primary btn-circle">❮</a>
             <a href="#slide2" className="btn bg-primary btn-circle">❯</a>
           </div>
         </div>
+
         {/* <div id="slide2" className="carousel-item relative w-full">
           <img src={banner1} className="w-full" />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
