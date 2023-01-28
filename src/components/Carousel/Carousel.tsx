@@ -7,21 +7,23 @@ import './CarouselItem.css';
 const Carousel = () => {
   return (
     <div className="carousel w-full">
-      <div id="slide1" className="carousel-item relative w-full">
-        <div className="carousel-img">
-          <img src={banner1} className="w-full" />
-        </div>
-        <div className="text-white bg-transparent absolute w-full top-0">
-          <div className="p-2 text-sm sm:text-lg text-center md:text-right md:mt-24 md:mr-24">
-            <h2 className="text-2xl md:text-5xl font-bold mb-2">Arch Design Studio</h2>
-            <p className="md:text-lg mb-1">A Very Personal Approach to Every Client</p>
-            <p className="mb-4 sm:mb-8">Elegant Solutions to Complex Problems</p>
-            <div className="">
-              <button className="btn btn-primary rounded-none btn-sm md:btn-md">Get Started</button>
+      <div id="slide1" className="carousel-item relative w-full bg-primary">
+        <div className="w-[87%] mx-auto">
+          <div className="carousel-img">
+            <img src={banner1} className="w-full" />
+          </div>
+          <div className="text-white bg-transparent absolute w-[87%] mx-auto top-0">
+            <div className="p-2 text-sm sm:text-lg text-center md:text-right md:mt-24 md:mr-24">
+              <h2 className="text-2xl md:text-5xl font-bold mb-2">Arch Design Studio</h2>
+              <p className="md:text-lg mb-1">A Very Personal Approach to Every Client</p>
+              <p className="mb-4 sm:mb-8">Elegant Solutions to Complex Problems</p>
+              <div className="">
+                <button className="btn btn-primary rounded-none btn-sm md:btn-md">Get Started</button>
+              </div>
             </div>
           </div>
         </div>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-1/2">
+        <div className="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-1/2">
           <a href="#slide4" className="btn btn-circle">❮</a>
           <a href="#slide2" className="btn btn-circle">❯</a>
         </div>
