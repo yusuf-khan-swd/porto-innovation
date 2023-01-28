@@ -1,27 +1,86 @@
-import banner1 from '../../assets/banner1.jpg';
+import banner1 from '../../assets/banner3.jpg';
 import banner2 from '../../assets/banner2.jpg';
-import banner3 from '../../assets/banner3.jpg';
+import banner3 from '../../assets/banner1.jpg';
+import banner4 from '../../assets/banner4.jpg';
+import './CarouselItem.css';
 
 const Carousel = () => {
   return (
-    <div className="carousel w-full mx-auto">
-      <div id="slide1" className="carousel-item relative w-full bg-primary">
-        <div className="w-[90%] mx-auto">
-          <figure className="w-full opacity-30"><img src={banner1} /></figure>
-          <div className="text-white bg-transparent absolute top-14 right-24">
-            <div className="text-left sm:text-right">
-              <h2 className="md:text-5xl font-bold mb-2">Arch Design Studio</h2>
-              <p className="md:text-lg mb-1">A Very Personal Approach to Every Client</p>
-              <p className="mb-4 sm:mb-8">Elegant Solutions to Complex Problems</p>
-              <div className="">
-                <button className="btn btn-primary rounded-none">Get Started</button>
-              </div>
+    <div className="carousel w-full">
+      <div id="slide1" className="carousel-item relative w-full">
+        <div className="carousel-img">
+          <img src={banner1} className="w-full" />
+        </div>
+        <div className="text-white bg-transparent absolute w-full top-0">
+          <div className="p-2 text-sm sm:text-lg text-center md:text-right md:mt-24 md:mr-24">
+            <h2 className="text-2xl md:text-5xl font-bold mb-2">Arch Design Studio</h2>
+            <p className="md:text-lg mb-1">A Very Personal Approach to Every Client</p>
+            <p className="mb-4 sm:mb-8">Elegant Solutions to Complex Problems</p>
+            <div className="">
+              <button className="btn btn-primary rounded-none btn-sm md:btn-md">Get Started</button>
             </div>
           </div>
         </div>
-        <div className="absolute flex justify-between transform top-1/2 left-0 right-0">
-          <a href="#slide4" className="btn bg-primary btn-circle">❮</a>
-          <a href="#slide2" className="btn bg-primary btn-circle">❯</a>
+        <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-1/2">
+          <a href="#slide4" className="btn btn-circle">❮</a>
+          <a href="#slide2" className="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide2" className="carousel-item relative w-full">
+        <div className="carousel-img">
+          <img src={banner2} className="w-full" />
+        </div>
+        <div className="text-white bg-transparent absolute w-full top-0">
+          <div className="p-2 text-sm sm:text-lg text-center md:text-right md:mt-24 md:mr-24">
+            <h2 className="text-2xl md:text-5xl font-bold mb-2">Arch Design Studio</h2>
+            <p className="md:text-lg mb-1">A Very Personal Approach to Every Client</p>
+            <p className="mb-4 sm:mb-8">Elegant Solutions to Complex Problems</p>
+            <div className="">
+              <button className="btn btn-primary rounded-none btn-sm md:btn-md">Get Started</button>
+            </div>
+          </div>
+        </div>
+        <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-1/2">
+          <a href="#slide1" className="btn btn-circle">❮</a>
+          <a href="#slide3" className="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide3" className="carousel-item relative w-full">
+        <div className="carousel-img">
+          <img src={banner3} className="w-full" />
+        </div>
+        <div className="text-white bg-transparent absolute w-full top-0">
+          <div className="p-2 text-sm sm:text-lg text-center md:text-right md:mt-24 md:mr-24">
+            <h2 className="text-2xl md:text-5xl font-bold mb-2">Arch Design Studio</h2>
+            <p className="md:text-lg mb-1">A Very Personal Approach to Every Client</p>
+            <p className="mb-4 sm:mb-8">Elegant Solutions to Complex Problems</p>
+            <div className="">
+              <button className="btn btn-primary rounded-none btn-sm md:btn-md">Get Started</button>
+            </div>
+          </div>
+        </div>
+        <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-1/2">
+          <a href="#slide2" className="btn btn-circle">❮</a>
+          <a href="#slide4" className="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide4" className="carousel-item relative w-full">
+        <div className="carousel-img">
+          <img src={banner4} className="w-full" />
+        </div>
+        <div className="text-white bg-transparent absolute w-full top-0">
+          <div className="p-2 text-sm sm:text-lg text-center md:text-right md:mt-24 md:mr-24">
+            <h2 className="text-2xl md:text-5xl font-bold mb-2">Arch Design Studio</h2>
+            <p className="md:text-lg mb-1">A Very Personal Approach to Every Client</p>
+            <p className="mb-4 sm:mb-8">Elegant Solutions to Complex Problems</p>
+            <div className="">
+              <button className="btn btn-primary rounded-none btn-sm md:btn-md">Get Started</button>
+            </div>
+          </div>
+        </div>
+        <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-1/2">
+          <a href="#slide3" className="btn btn-circle">❮</a>
+          <a href="#slide1" className="btn btn-circle">❯</a>
         </div>
       </div>
     </div>
