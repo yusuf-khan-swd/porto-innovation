@@ -1,4 +1,6 @@
 import banner1 from '../../assets/banner1.jpg';
+import banner2 from '../../assets/banner2.jpg';
+import banner3 from '../../assets/banner3.jpg';
 
 const Carousel = () => {
   return (
@@ -21,9 +23,9 @@ const Carousel = () => {
     //     </div>
     //   </div>
     // </div>
-    <div className="bg-primary relative">
+    <div className="bg-primary">
       <div className="carousel w-[88%] mx-auto max-h-[560px] min-h-[350px]">
-        <div id="slide1" className="carousel-item w-full">
+        <div id="slide1" className="carousel-item relative w-full">
           <img src={banner1} className="w-full opacity-30" />
           <div className="absolute text-white bg-transparent  sm:right-9 md:right-12 lg:right-11 p-6">
             <div className="text-center sm:text-right mt-24 mb-16 pr-8">
@@ -38,6 +40,40 @@ const Carousel = () => {
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 lg:left-3 lg:right-3 top-1/2 z-50">
             <a href="#slide4" className="btn bg-primary btn-circle">❮</a>
             <a href="#slide2" className="btn bg-primary btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide2" className="carousel-item relative w-full">
+          <img src={banner2} className="w-full opacity-30" />
+          <div className="absolute text-white bg-transparent  sm:right-9 md:right-12 lg:right-11 p-6">
+            <div className="text-center sm:text-right mt-24 mb-16 pr-8">
+              <h2 className="md:text-5xl font-bold mb-2">Arch Design Studio</h2>
+              <p className="md:text-lg mb-1">A Very Personal Approach to Every Client</p>
+              <p className="mb-8">Elegant Solutions to Complex Problems</p>
+              <div className="">
+                <button className="btn btn-primary rounded-none">Get Started</button>
+              </div>
+            </div>
+          </div>
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-3 right-3 top-1/2 z-50">
+            <a href="#slide1" className="btn bg-primary btn-circle">❮</a>
+            <a href="#slide3" className="btn bg-primary btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide3" className="carousel-item relative w-full">
+          <img src={banner3} className="w-full opacity-30" />
+          <div className="absolute text-white bg-transparent  sm:right-9 md:right-12 lg:right-11 p-6">
+            <div className="text-center sm:text-right mt-24 mb-16 pr-8">
+              <h2 className="md:text-5xl font-bold mb-2">Arch Design Studio</h2>
+              <p className="md:text-lg mb-1">A Very Personal Approach to Every Client</p>
+              <p className="mb-8">Elegant Solutions to Complex Problems</p>
+              <div className="">
+                <button className="btn btn-primary rounded-none">Get Started</button>
+              </div>
+            </div>
+          </div>
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 lg:left-3 lg:right-3 top-1/2 z-50">
+            <a href="#slide2" className="btn bg-primary btn-circle">❮</a>
+            <a href="#slide1" className="btn bg-primary btn-circle">❯</a>
           </div>
         </div>
 
