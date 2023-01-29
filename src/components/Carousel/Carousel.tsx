@@ -8,10 +8,9 @@ import SwiperCarousel from './SwiperCarousel';
 const Carousel = () => {
 
   return (
-    <div>
-      <NormalCarousel></NormalCarousel>
-      {/* <SwiperCarousel></SwiperCarousel> */}
-    </div>
+    <NormalCarousel></NormalCarousel>
+    // <SwiperCarousel></SwiperCarousel>
+
   );
 };
 
