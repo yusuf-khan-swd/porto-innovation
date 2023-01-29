@@ -46,7 +46,7 @@ const Navbar = () => {
             <div className="navbar-center hidden lg:flex">
               <ul className="menu menu-horizontal px-1">{menuItems}</ul>
             </div>
-            <div className="mt-1 navbar-end lg:w-8">
+            <div className="mr-3 navbar-end lg:w-8">
               <FaSearch className="cursor-pointer text-xl"></FaSearch>
             </div>
             <div className="navbar-end hidden lg:flex">
