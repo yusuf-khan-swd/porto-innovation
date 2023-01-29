@@ -12,7 +12,7 @@ const NormalCarousel = () => {
           <div className="carousel-img">
             <img src={banner1} className="w-full" />
           </div>
-          <div className="text-white bg-transparent absolute w-[87%] mx-auto top-0">
+          <div className="text-white bg-transparent absolute w-[87%] mx-auto top-[15%] md:top-[5%] lg:top-[10%]">
             <div className="p-2 text-sm sm:text-lg text-center md:text-right md:mt-24 md:mr-24">
               <h2 className="text-2xl md:text-5xl font-bold mb-2">Arch Design Studio</h2>
               <p className="md:text-lg mb-1">A Very Personal Approach to Every Client</p>
